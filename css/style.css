@@ -197,6 +197,11 @@ footer a{
     color: white;
 }
 
+.emoji img{
+    width: 30px;
+    
+}
+
 
 
 
@@ -220,6 +225,18 @@ footer a{
 .github:hover{
     -webkit-transform: rotateZ(360deg);
     transform: rotateZ(360deg);
+}
+
+.emoji img{
+    transition: all 3s;
+    cursor:auto;
+    
+}
+
+.emoji img:hover{
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    
 }
 
 
@@ -315,3 +332,6 @@ footer a{
     }
 
 }
+
+
+
